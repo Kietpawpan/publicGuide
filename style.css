@@ -28,7 +28,7 @@ body{
 
 }
 .center{
-	width:800px;
+	width:600px;
   	margin: auto;
   	padding: 10px;
 
@@ -42,12 +42,20 @@ body{
 
 .intro{
 	text-align:center;
-	margin: 20px 0px 10px 0px;
-	font-size:22px;
+	margin: 20px 10px 10px 10px;
+	font-size:27px;
 	font-weight:600;
 	color:green;
 }
 
+.sub{
+	font-size:22px;	
+}
+
+.step{
+	font-size:22px;	
+	font-family:"Kanit";
+}
 .p{
 	font-size:18px;
 }
