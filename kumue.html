@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body class="kanit-light ">
+<div class="center">
+<div class="container">	
+	<div class="header">
+	<img src="https://esc.mnre.go.th/info/images/mnre.png">
+		<span><div class="htext">
+		คู่มือประชาชน
+		<br>
+		<input placeholder="https://esc.mnre.go.th/info" disabled>
+		</div>
+		</span>
+
+
+	<div class="intro">
+	การยื่นคำขอข้อมูลข่าวสาร ตามพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ. 2540
+	</div>
+</div>
+
+<div class="container" style="margin-top:40px;">	
+	<div class="w3-container">
+	<h2>ขั้นตอน</h2>
+	<p style="font-size:18px;">การยื่นคำขอผ่านโทรศัพท์มือถือหรือเครื่องคอมพิวเตอร์</p>
+   
+	<div onclick="show('s1')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p style="font-size:18px;">อ่านประกาศความเป็นส่วนตัว (Privacy Notice)</a></p>
+    <div id="s1" class="w3-container w3-hide">
+    <p class="note"><b>ประกาศความเป็นส่วนตัว (Privacy Notice) ของระบบยื่นคำขอข้อมูลข่าวสารของกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม</b> ได้รับความเห็นชอบจากปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม เมื่อวันที่ 4 เมษายน 2567 เผยแพร่ที่ <a href="https://esc.mnre.go.th/info/newpdpa.html">https://esc.mnre.go.th/info/newpdpa.html</a></p>
+	</div>
+    </div>
+
+	<div onclick="show('s2')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+	<p style="font-size:18px;">เปิดโปรแกรม e-Request</p>
+	<div id="s2" class="w3-container w3-hide">
+    <p class="note"><b>ระบบ e-Request เป็น Web Application ของกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม เข้าใช้งานโดยกดที่ลิงค์  <a href="https://esc.mnre.go.th/info">https://esc.mnre.go.th/info</a></b></p>
+	</div>	
+	</div>
+	
+	
+	<div onclick="show('s3')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p style="font-size:18px;">กรอกข้อมูลใน e-Form</p>
+	<div id="s3" class="w3-container w3-hide">
+    <p class="note"><b>กรอกข้อมูล ในช่องว่างที่แสดงใน e-Form แล้วกดปุ่ม "สร้างคำขอ" ระบบจะดำเนินการพิมพ์ร่างคำขอ ให้ผู้ขอตรวจสอบ <a href="https://esc.mnre.go.th/info">https://esc.mnre.go.th/info</a></b></p>
+	</div>	
+	</div>
+	
+	
+	
+	<div onclick="show('s4')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p style="font-size:18px;">คัดลอกร่างคำขอ ส่งอีเมล</p>
+	<div id="s4" class="w3-container w3-hide">
+    <p class="note"><b>เมื่อร่างคำขอเรียบร้อย กดปุ่ม "คัดลอก" เพื่อคัดลอกข้อมูลร่างคำขอไว้บน clipboard นำไปวางในอีเมล ส่งถึงหน่วยงานทางอีเมลที่ระบบแจ้ง</a></b></p>
+	</div>	
+	</div>
+	
+	<div onclick="show('s5')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p style="font-size:18px;">ติดตามความก้าวหน้า</p>
+	<div id="s5" class="w3-container w3-hide">
+    <p class="note"><b>ติดตามสถานะของคำขอข้อมูลข่าวสาร ผ่านระบบ e-Tracking ที่ <a href="https://esc.mnre.go.th/app/e-tracking">https://esc.mnre.go.th/app/e-tracking</a></b></p>
+	</div>	
+	</div>
+	
+	<div onclick="show('s6')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p style="font-size:18px;">ชำระค่าธรรมเนียม</p>
+	<div id="s6" class="w3-container w3-hide">
+    <p class="note"><b>กรณีหน่วยงานเปิดเผยข้อมูลข่าวสารตามคำขอ ผู้ขอต้องชำระค่าธรรมเนียมก่อนติดต่อขอรับสำเนาข้อมูลข่าวสารนั้น สำหรับ สป.ทส. สามารถชำระค่าธรรมเนียม โดยโอนเงินผ่านระบบ e-Banking เข้าบัญชี : <br><br>
+	<table class="bank">
+	<tr><td><b>ธนาคาร</b></td><td> </td><td>กรุงไทย</td></tr>
+	<tr><td><b>ชื่อบัญชี</b></td><td> </td><td>สำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม</td></tr>
+	<tr><td><b>หมายเลขบัญชี</b></td><td> </td><td>184-6-00591-4</td></tr>
+	</table>
+	<p class="note">
+	<font color="red">ส่งหลักฐานการชำระเงินที่ อีเมล servicelinkcenter@mnre.go.th หรือ LINE "GECC สป.ทส." ที่ <a href=" https://lin.ee/mkrx6ED">https://lin.ee/mkrx6ED</a></font>
+	</p>
+	</b></p>
+	</div>	
+	</div>
+	
+	
+  </div>
+  <div class="w3-container">
+	  <h2>ค่าธรรมเนียม</h2>
+	  <div class="w3-panel w3-blue w3-round-xlarge">
+	  <p>ค่าจัดทำสำเนา ขนาดกระดาษ A4 หน้าละ 1 บาท</p>
+	  </div>
+	   <div class="w3-panel w3-blue w3-round-xlarge">
+	  <p>ค่ารับรองสำเนาถูกต้อง คำรับรองละ 5 บาท</p>
+	  </div>
+	  
+	  <h2>กฎหมายที่เกี่ยวข้อง</h2>
+	  <div class="w3-panel w3-blue w3-round-xlarge">
+	  <p>พระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ. 2540</p>
+		</div>
+<div class="org">
+จัดทำโดย ศูนย์บริการร่วมกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม<br>
+<font size="-1">92 ซอยหหลโยธิน 7 ถนนพหลโยธิน แขวงพญาไท เขตพญาไท กรุงเทพฯ 10400 โทร. 0 2265 6223-5 อีเมล servicelinkcenter@mnre.go.th
+</div>
+ 
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<script>
+function show(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+</body>
+</html>
