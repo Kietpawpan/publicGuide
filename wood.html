@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body class="kanit-light ">
+<div class="center">
+<div class="container">	
+	<div class="header">
+	<img src="https://esc.mnre.go.th/info/images/mnre.png">
+		<span><div class="htext">
+		คู่มือประชาชน
+		<br>
+		<input placeholder="https://etree.forest.go.th" disabled>
+		</div>
+		</span>
+
+
+	<div class="intro">
+	การตัดไม้ในที่ดินกรรมสิทธิ์
+	</div>
+</div>
+
+<div class="container" style="margin-top:80px;">	
+	<div class="w3-container">
+	<h2>ขั้นตอน</h2>
+	<p class="sub">การจัดทำหนังสือสำแดงความถูกต้องด้วยตนเอง</p>
+   
+	<div onclick="show('s1')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p class='step'>ยินยอมให้กรมป่าไม้เก็บข้อมูลส่วนบุคคล</a></p>
+    <div id="s1" class="w3-container w3-hide">
+    <p class="note"><b>
+<ul class="list">
+<style>
+ul.list{
+	font-family:"Kanit";
+	font-size:20px;
+}
+</style>
+	<li>หากยินยอมให้กรมป่าไม้เก็บข้อมูลส่วนบุคคล จะใช้งานระบบจัดทำหนังสือสำแดงความถูกต้องได้</li> 
+	<li>หากไม่ยินยอม ท่านสามารถจัดทำหนังสือดังกล่าวด้วยวิธีอื่นตามที่เห็นสมควร โดยให้มีข้อมูลครบถ้วนตามหนังสือกรมป่าไม้ ด่วนที่สุด ที่ ทส 1613.2.3/19527 ลงวันที่ 26 พฤศจิกายน 2564 เรื่อง การรับรองไม้ที่ขึ้นในที่ดินที่มีกรรมสิทธิ์หรือสิทธิครอบครองตามประมวลกฎหมายที่ดิน <i style="color:red;" class="fa fa-file-pdf-o" onclick="window.open('pdf/sd64.pdf')"></i></li>
+</ul>
+	</b></p>
+</div>
+</div>
+
+	<div onclick="show('s2')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+	<p class='step'>เปิดโปรแกรมจัดทำหนังสือสำแดงความถูกต้อง</p>
+	<div id="s2" class="w3-container w3-hide">
+    <p class="note"><b>ระบบ Self-Declaration (SD) เป็น Web Application ของกรมป่าไม้ เข้าใช้งานโดยกดที่ลิงค์  <a href="https://etree.forest.go.th/PubblicForm/Attachment3">https://etree.forest.go.th/PubblicForm/Attachment3</a></b></p>
+	</div>	
+	</div>
+	
+	
+	<div onclick="show('s3')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p class='step'>กรอกข้อมูลใน e-Form</p>
+	<div id="s3" class="w3-container w3-hide">
+    <p class="note"><b>กรอกข้อมูลตามความจริง เพื่อระบุตัวตนของเจ้าของไม้ แหล่งที่มาของต้นไม้ รายการสรุปต้นไม้ที่ตัด บัญชีไม้แนบท้ายหนังสือสำแดงความถูกต้องด้วยตนเอง
+และแนบไฟล์รูปภาพ</b></p>
+	</div>	
+	</div>
+	
+	
+	
+	<div onclick="show('s4')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p class='step'>กดปุ่มบันทึกข้อมูล</p>
+	<div id="s4" class="w3-container w3-hide">
+    <p class="note"><b>เพื่อบันทึกข้อมูลลงในเครื่อง Server ของกรมป่าไม้</a></b></p>
+	</div>	
+	</div>
+	
+	<div onclick="show('s5')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p class='step'>กดปุ่มพิมพ์</p>
+	<div id="s5" class="w3-container w3-hide">
+    <p class="note"><b>ระบบจะแสดงภาพหนังสือสำแดงความถูกต้องด้วยตนเอง พร้อม QR Code สำหรับตรวจสอบกับต้นฉบับในระบบ SD ของกรมป่าไม้</b></p>
+	</div>	
+	</div>
+
+	<div onclick="show('s6')" class="w3-panel w3-leftbar w3-border-blue w3-sand w3-xxlarge w3-serif">
+    <p class='step'>ลงนามในหนังสือสำแดงความถูกต้อง</p>
+	<div id="s6" class="w3-container w3-hide">
+    <p class="note"><b>เจ้าของไม้ และพยาน (ถ้ามี) ลงนามในหนังสือสำแดงความถูกต้อง เก็บไว้เป็นหลักฐาน</b></p>
+	</div>	
+	</div>
+
+</div>
+		
+	
+  </div>
+  <div class="w3-container">
+	  <h2>ค่าธรรมเนียม</h2>
+	  <div class="w3-panel w3-blue w3-round-xlarge">
+	  <p class='step'>ไม่มี</p>
+	  </div>
+	  
+
+	  <h2>กฎหมายที่เกี่ยวข้อง</h2>
+	  <div class="w3-panel w3-blue w3-round-xlarge">
+	  <p class='step'><i style="color:red;" class="fa fa-file-pdf-o" onclick="window.open('https://www.ratchakitcha.soc.go.th/DATA/PDF/2562/A/050/T_0106.PDF?fbclid=IwAR0J-I_tuxbcmQ1RmFcIKNS20LBouC76LAab5_Zz5w0x22cSJxyN0QSSQNA')"></i> พระราชบัญญัติป่าไม้ (ฉบับที่ 8) พ.ศ. 2562 </p>
+		</div>
+<div class="org">
+ศูนย์บริการร่วมกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม<br>
+<font size="-1">92 ซอยหหลโยธิน 7 ถนนพหลโยธิน แขวงพญาไท เขตพญาไท กรุงเทพฯ 10400<br>โทร. 0 2265 6223-5 อีเมล servicelinkcenter@mnre.go.th
+</div>
+ 
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<script>
+function show(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+</body>
+</html>
